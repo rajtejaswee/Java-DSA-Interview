@@ -26,6 +26,14 @@ Java, Data Structure and Algorithms questions along with solutions for Interview
   } </code></pre>
 
 ### Breadth-First Search(BFS):
+- In BFS, we start with a “starting” node, mark it as visited, and push it into the queue data structure.
+  In every iteration, we pop out the node ‘v’ and put it in the solution vector, as we are traversing this node.
+  All the unvisited adjacent nodes from ‘v’ are visited next and are pushed into the queue. The list of adjacent neighbors of the node can be accessed from the adjacency list.
 - Level breadth wise height.
 - We have to see the distance from each node breadth wise.
-- [Code Implementation:]()
+- [Code Implementation.](https://github.com/rajtejaswee/Java-DSA-Interview/blob/main/src/Graphs/BFS.java)
+
+### Depth-First Search(DFS):
+- DFS is a traversal technique which involves the idea of recursion and backtracking. DFS goes in-depth, i.e., traverses all nodes by going ahead, and when there are no further nodes to traverse in the current path, then it backtracks on the same path and traverses other unvisited nodes. 
+- Algorithm: Recursion
+- [Code Implementation.]()
