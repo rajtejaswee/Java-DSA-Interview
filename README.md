@@ -15,7 +15,16 @@ Java, Data Structure and Algorithms questions along with solutions for Interview
 **Adjacency Matrix** is better when **frequent edge lookups** are needed.
 - [Implementation of Graph using adjacency matrix.](https://github.com/rajtejaswee/Java-DSA-Interview/blob/main/src/Graphs/GraphMatrix.java)
 - [Implementation of Graph using adjacency list.](https://github.com/rajtejaswee/Java-DSA-Interview/blob/main/src/Graphs/GraphList.java)
+### Graph Conversion:
 
+| Conversion        | Steps |
+|-------------------|------------------------------------------------------------------|
+| **Matrix → List** | Traverse the matrix and for each `1`, add the corresponding index to the adjacency list. |
+| **List → Matrix** | Iterate through the adjacency list and set `matrix[i][j] = 1` if an edge exists. |
+
+This ensures **efficient** graph representations depending on whether the graph is dense (use a matrix) or sparse (use a list).
+
+[Code Implementation]()
 ### Connected Components: 
 - for any traversal use a visited array of the size node+1.
 - pseudocode:
@@ -36,4 +45,4 @@ Java, Data Structure and Algorithms questions along with solutions for Interview
 ### Depth-First Search(DFS):
 - DFS is a traversal technique which involves the idea of recursion and backtracking. DFS goes in-depth, i.e., traverses all nodes by going ahead, and when there are no further nodes to traverse in the current path, then it backtracks on the same path and traverses other unvisited nodes. 
 - Algorithm: Recursion
-- [Code Implementation.]()
+- [Code Implementation.](https://github.com/rajtejaswee/Java-DSA-Interview/blob/main/src/Graphs/DFS.java)
