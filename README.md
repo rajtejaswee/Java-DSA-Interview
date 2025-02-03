@@ -24,7 +24,7 @@ Java, Data Structure and Algorithms questions along with solutions for Interview
 
 This ensures **efficient** graph representations depending on whether the graph is dense (use a matrix) or sparse (use a list).
 
-[Code Implementation]()
+[Code Implementation](https://github.com/rajtejaswee/Java-DSA-Interview/blob/main/src/Graphs/GraphConversion.java)
 ### Connected Components: 
 - for any traversal use a visited array of the size node+1.
 - pseudocode:
@@ -46,3 +46,6 @@ This ensures **efficient** graph representations depending on whether the graph 
 - DFS is a traversal technique which involves the idea of recursion and backtracking. DFS goes in-depth, i.e., traverses all nodes by going ahead, and when there are no further nodes to traverse in the current path, then it backtracks on the same path and traverses other unvisited nodes. 
 - Algorithm: Recursion
 - [Code Implementation.](https://github.com/rajtejaswee/Java-DSA-Interview/blob/main/src/Graphs/DFS.java)
+
+### Questions on BFS and DFS:
+- [Number of Provincess]()

@@ -1,6 +1,7 @@
 package Graphs;
 import java.util.*;
 public class DFS {
+    //DFS on list
     public static void dfs(int node, boolean vis[], ArrayList<ArrayList<Integer>> adj,
                            ArrayList<Integer> ls) {
         vis[node] = true;
@@ -17,6 +18,33 @@ public class DFS {
         ArrayList<Integer> ls = new ArrayList<>();
         dfs(0, vis, adj, ls);
         return ls;
+    }
+
+    //DFS on Matrix
+    class Solution {
+        public void findCircleNum(int[][] isConnected) {
+            boolean[] visited=new boolean[isConnected.length];
+            int count=0;
+            for(int i=0;i<isConnected.length;i++){
+                if(!visited[i]) {
+                    DFS(isConnected,i,visited);
+                }
+            }
+
+        }
+        void DFS(int[][] connected,int curr,boolean[] visited){
+            visited[curr]=true;
+            for(int i=0;i<connected[curr].length;i++){
+                if(connected[curr][i]==1 && !visited[i]) DFS(connected,i,visited);
+            }
+        }
+    }
+    public void DFS(int[][] matrix,int curr,boolean[] visited) {
+        visited[curr] = true;
+        for (int i = 0; i < matrix[curr].length; i++) {
+            if (matrix[curr][i] == 1 && !visited[i])
+                DFS(matrix, i, visited);
+        }
     }
 
     public static void main(String args[]) {
