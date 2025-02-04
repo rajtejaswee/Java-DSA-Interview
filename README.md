@@ -1,6 +1,17 @@
 # Java-DSA-Interview
 Java, Data Structure and Algorithms questions along with solutions for Interviews.
 
+## Linked List 
+- A Linked List is a linear data structure in which elements are stored in nodes, and each node points to the next node in the sequence. Unlike arrays, linked lists do not store elements in contiguous memory locations.
+
+### Types of Linked List:
+- Singly Linked List – Each node points to the next node.
+- Doubly Linked List – Each node points to both the next and previous nodes.
+- Circular Linked List – The last node points back to the first node.
+
+### Implementations:
+- [Node Class, Singly Linked List]()
+
 ## Graphs
 ### Implementation:
 | Feature                | Adjacency Matrix | Adjacency List        |
@@ -48,4 +59,5 @@ This ensures **efficient** graph representations depending on whether the graph 
 - [Code Implementation.](https://github.com/rajtejaswee/Java-DSA-Interview/blob/main/src/Graphs/DFS.java)
 
 ### Questions on BFS and DFS:
-- [Number of Provincess]()
+- [Number of Provincess](https://leetcode.com/problems/number-of-provinces/description/)
+- [Rotten Oranges](https://leetcode.com/problems/rotting-oranges/description/)
