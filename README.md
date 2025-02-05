@@ -12,6 +12,14 @@ Java, Data Structure and Algorithms questions along with solutions for Interview
 ### Implementations:
 - [Node Class, Singly Linked List]()
 
+### Question on Linked List:
+**Singly Linked List**
+- [Convert Array to Linked List](https://www.geeksforgeeks.org/problems/introduction-to-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=introduction-to-linked-list)
+- [Linked List Insertion at the End](https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=linked-list-insertion)
+- [Delete a node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)
+- [Count Linked List Nodes](https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=count-nodes-of-linked-list)
+- [Search in Linked List](https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=search-in-linked-list-1664434326)
+
 ## Graphs
 ### Implementation:
 | Feature                | Adjacency Matrix | Adjacency List        |
