@@ -10,7 +10,10 @@ Java, Data Structure and Algorithms questions along with solutions for Interview
 - Circular Linked List – The last node points back to the first node.
 
 ### Implementations:
-- [Node Class, Singly Linked List]()
+- [Node Class, Singly Linked List](https://github.com/rajtejaswee/Java-DSA-Interview/blob/main/src/Linked_List/Node.java)
+- [Insertion in Singly Linked List](https://github.com/rajtejaswee/Java-DSA-Interview/blob/main/src/Linked_List/Insertion.java)
+- [Deletion in Singly Linked List](https://github.com/rajtejaswee/Java-DSA-Interview/blob/main/src/Linked_List/Deletion.java)
+- [Node Class, Doubly Linked List]()
 
 ### Question on Linked List:
 **Singly Linked List**
@@ -19,6 +22,9 @@ Java, Data Structure and Algorithms questions along with solutions for Interview
 - [Delete a node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)
 - [Count Linked List Nodes](https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=count-nodes-of-linked-list)
 - [Search in Linked List](https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=search-in-linked-list-1664434326)
+
+**Doubly Linked List**
+-
 
 ## Graphs
 ### Implementation:
@@ -69,3 +75,5 @@ This ensures **efficient** graph representations depending on whether the graph 
 ### Questions on BFS and DFS:
 - [Number of Provincess](https://leetcode.com/problems/number-of-provinces/description/)
 - [Rotten Oranges](https://leetcode.com/problems/rotting-oranges/description/)
+- [Flood Fill Algorithm](https://leetcode.com/problems/flood-fill/description/)
+- [Undirected Graph Cycle](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=detect-cycle-in-an-undirected-graph)
