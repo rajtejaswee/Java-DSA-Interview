@@ -2,10 +2,12 @@ package Trees;
 
 public class TreeNode {
     int data;
-    TreeNode left;
-    TreeNode right;
-    public TreeNode(int key) {
-        this.data = key;
+    TreeNode left, right;
+
+    public TreeNode(int v)
+    {
+        data = v;
+        left = right = null;
     }
     public static void main(String[] args) {
         TreeNode root = new TreeNode(3);

@@ -39,6 +39,20 @@ Java, Data Structure and Algorithms questions along with solutions for Interview
 ### Dp on Strings:
 
 - [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)
+
+---
+## Trees
+Tree data structure is a hierarchical structure that is used to represent and organize data in the form of parent child relationship. The following are some real world situations which are naturally a tree.<br>
+The topmost node of the tree is called the root, and the nodes below it are called the child nodes. Each node can have multiple child nodes, and these child nodes can also have their own child nodes, forming a recursive structure. <br> 
+[**Representation of Trees**](https://github.com/rajtejaswee/Java-DSA-Interview/blob/main/src/Trees/TreeNode.java)
+### Traversal Techniques:
+- [InOrder](), [Articles](https://www.geeksforgeeks.org/inorder-traversal-of-binary-tree/)
+- [PreOrder](), [Articles](https://www.geeksforgeeks.org/preorder-traversal-of-binary-tree/)
+- [PostOrder](), [Articles](https://www.geeksforgeeks.org/postorder-traversal-of-binary-tree/)
+- [LevelOrder](), [Articles](https://www.geeksforgeeks.org/level-order-tree-traversal/)
+
+### Foundational/Easy Problems:
+- [Height of the Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
 ## Graphs
 ### Implementation:
 | Feature                | Adjacency Matrix | Adjacency List        |
