@@ -22,10 +22,23 @@ Java, Data Structure and Algorithms questions along with solutions for Interview
 - [Delete a node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)
 - [Count Linked List Nodes](https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=count-nodes-of-linked-list)
 - [Search in Linked List](https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=search-in-linked-list-1664434326)
+- [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)
+- [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+- [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
+- [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)
 
 **Doubly Linked List**
--
+- [Introduction to Doubly Linked List](https://www.geeksforgeeks.org/problems/introduction-to-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=introduction-to-doubly-linked-list)
+- [Doubly linked list Insertion at given position
+  ](https://www.geeksforgeeks.org/problems/insert-a-node-in-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=insert-a-node-in-doubly-linked-list)
+- [Delete in a Doubly Linked List](https://www.geeksforgeeks.org/problems/delete-node-in-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=delete-node-in-doubly-linked-list)
+- [Reverse a Doubly Linked List
+  ](https://www.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=reverse-a-doubly-linked-list)
 
+## Dynamic Programming
+### Dp on Strings:
+
+- [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)
 ## Graphs
 ### Implementation:
 | Feature                | Adjacency Matrix | Adjacency List        |
